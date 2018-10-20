@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Aprendizaje supervisado}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Algoritmo de retropropagaci\363n en redes con una capa oculta}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Arquitecturas y algor\355tmos para aprender XOR.}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Algortimo de retropropagaci\363n para aprender XOR:Redes con dos neuronas de entrada}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Algortimo de retropropagaci\363n para aprender XOR: Redes con N neuronas de entrada y N' neuronas en la capa oculta}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Algoritmo de retropropagaci\363n para aprender mapeo log\355sto}{}% 6
+\BOOKMARK [1][-]{section.4}{Programas en C}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Algoritmo para aprender XOR: Redes con 2 entradas}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Algoritmo para aprender XOR: Redes con N entradas}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Algoritmo para aprender mapeo log\355stico}{section.4}% 10

@@ -1,0 +1,4 @@
+meli@meli-pc:~/Escritorio/Maestría/Autovalores$ gcc -I/usr/local/include -c probando.c
+meli@meli-pc:~/Escritorio/Maestría/Autovalores$ gcc -L/usr/local/lib probando.o -lgsl -lgslcblas -lm
+
+ GSL_RNG_SEED

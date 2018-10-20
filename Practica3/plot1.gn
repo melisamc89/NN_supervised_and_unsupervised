@@ -1,0 +1,20 @@
+
+set terminal png
+set output 'Histo18.png'
+set grid
+set xlabel 'Overlap'
+set ylabel '#'
+
+f(x) = floor(x/dx+0.5)*dx
+
+dx = 0.01
+
+plot [][0:1] 'Hopfield_overlap_500_90.dat' u (f($1)):($1/90) smooth frequency w histeps lw 3 t 'p/N = 0.18'
+
+#'Hopfield_overlap_500_60.dat' u (f($1)):($1/60) smooth frequency w histeps lw 3 t 'p/N = 0.12','Hopfield_overlap_500_70.dat' u (f($1)):($1/70) smooth frequency w histeps t 'p/N = 0.14','Hopfield_overlap_500_80.dat' u (f($1)):($1/80) smooth frequency w histeps t 'p/N = 0.16','Hopfield_overlap_500_90.dat' u (f($1)):($1/90) smooth frequency w histeps t 'p/N = 0.18'
+
+
+unset xlabel
+unset ylabel
+unset grid
+set terminal x11
